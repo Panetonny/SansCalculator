@@ -23,6 +23,14 @@ header{
     left: 90px;
 }
 
+@keyframes sans {
+    from{
+        background-position: 100%;
+    }
+    to{
+        background-position: 0%;
+    }
+}
 
 #smallvisor{
     background-color: #D9C8C8;
@@ -30,12 +38,10 @@ header{
     width: 143px;
     height: 53px;
     text-align: center;
-
-}
-
-#smallsans{
-    position: relative;
-    bottom: 12px;
+    overflow: hidden;
+    background-image: url(../assets/img/sans\ animation.png);
+    background-position: 100%;
+    animation: sans 1s steps(2) infinite;
 }
 
 #bigvisor{
@@ -76,11 +82,9 @@ header{
     50%{
         opacity: 0;
     }
-    100%{
-        opacity 1;
-    }
+
 }
 
 .pisca{
-    animation: piscando 1s linear infinite;
+    animation: piscando 1s steps(1) infinite;
 }
