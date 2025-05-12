@@ -14,7 +14,7 @@
     height: 53px;
     text-align: center;
     overflow: hidden;
-    background-image: url(../assets/img/sans\ animation.png);
+    background-image: url(../../assets/img/sans\ animation.png);
     background-position: 100%;
     animation: sans 1s steps(2) infinite;
 }

@@ -23,27 +23,6 @@ header{
     left: 90px;
 }
 
-@keyframes sans {
-    from{
-        background-position: 100%;
-    }
-    to{
-        background-position: 0%;
-    }
-}
-
-#smallvisor{
-    background-color: #D9C8C8;
-    display: inline-block;
-    width: 143px;
-    height: 53px;
-    text-align: center;
-    overflow: hidden;
-    background-image: url(../assets/img/sans\ animation.png);
-    background-position: 100%;
-    animation: sans 1s steps(2) infinite;
-}
-
 #bigvisor{
     background-color: #D9C8C8;
     display: inline-flex;
